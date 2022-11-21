@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <p><input type="radio" name="prim" value="id1" data-toggle-id="su">Apple</p>
+            <div class="test" name ='test' id="su" hidden>
+                <p><input type="password"  value="id1.11" id='ApplePassword' inputmode="numeric" minlength="4"
+                    maxlength="8" size="8" ></p>
+                    <button id="Apple_password"> Sumbit</button>                
+            </div> 
+
+    <p><input type="radio" name="prim" value="id2" data-toggle-id="su1">Watermelon</p>
+                <div class="test1" name="test1" id="su1" hidden>
+                    <label for="cars">Choose a car:</label>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <br>
+                    <label  for="ssn">You chose car:</label>
+                    <span id="current"></span>
+                </div>
+    <p><input type="radio" name="prim" value="id3" data-toggle-id="su2">Melon</p>
+                    <div class="normal" name="normal" id="su2" hidden>
+                        <label for="start">Start date:</label>
+                            <input type="date" id="start" name="trip-start"
+                            value="2018-07-22"
+                            min="2018-01-01" max="2018-12-31">
+                    </div>
+                    
+
+    <p><input type="radio" name="prim" value="id4" data-toggle-id="su3">pepper</p>
+    <p><input type="radio" name="prim" value="id5" data-toggle-id="su4">lemon</p>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
